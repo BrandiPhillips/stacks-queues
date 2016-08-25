@@ -1,3 +1,6 @@
+# using an array to create a stack.  now normal array methods will not work on our stack.  
+
+
 class Stack
   def initialize
     @store = Array.new
@@ -23,6 +26,6 @@ class Stack
     return size == 0 # using the method above will return true or false
   end
 
-  
+
 
 end
